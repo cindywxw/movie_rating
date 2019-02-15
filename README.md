@@ -1,14 +1,7 @@
-.===================================================================================
+Project assigned by Rang Tech
+
+==================================================================================
 # Predict IMDB movie rating
-
-    by Chuan Sun (sundeepblue at gmail dot com)
-    
-    https://twitter.com/sundeepblue
-    
-    Scrapy project @ NYC Data Science Academy
-    
-    8/14/2016
-
 
 ===================================================================================
 # STEP 1: 
@@ -19,6 +12,8 @@ This step will generate a JSON file 'movie_budget.json'
 
 $ scrapy crawl movie_budget -o movie_budget.json
 
+    Script From Chuan Sun 
+    Scrapy project @ NYC Data Science Academy
 
 ===================================================================================
 # STEP 2: 
@@ -72,31 +67,7 @@ The output will be a CSV file 'movie_metadata.csv' (1.5MB)
 "movie_title"   
 "color"                     
 "num_critic_for_reviews"   
-"movie_facebook_likes" 
-"duration"                  
-"director_name"  
-"director_facebook_likes"  
-"actor_3_name" 
-"actor_3_facebook_likes"    
-"actor_2_name"           
-"actor_2_facebook_likes"   
-"actor_1_name" 
-"actor_1_facebook_likes"    
-"gross"                     
-"genres"                   
-"num_voted_users"           
-"cast_total_facebook_likes" 
-"facenumber_in_poster"      
-"plot_keywords"             
-"movie_imdb_link"           
-"num_user_for_reviews"      
-"language"                 
-"country"                   
-"content_rating"            
-"budget"                    
-"title_year"                   
-"imdb_score"                
-"aspect_ratio"              
+...          
 
 $ python parse_scraped_data.py
 
@@ -104,7 +75,7 @@ $ python parse_scraped_data.py
 ===================================================================================
 # STEP 6:
 
-Load the 'movie_metadata.csv' file in RStudio, and perform EDA and LASSO regression
+Load the 'movie_metadata.csv' file in RStudio, and perform regression and prediction.
 
 $ > run the RStudio
 
