@@ -1,9 +1,9 @@
 Project assigned by Rang Tech
 
-==================================================================================
+=================================================================================
 # Predict IMDB movie rating
 
-===================================================================================
+=================================================================================
 # STEP 1: 
 
 Fetch a list of 5000 movie titles and budgets from www.the-numbers.com
@@ -12,7 +12,7 @@ This step will generate a JSON file 'movie_budget.json'
 
 $ scrapy crawl movie_budget -o movie_budget.json
 
-    Script From Chuan Sun 
+    Scripts From Chuan Sun 
     Scrapy project @ NYC Data Science Academy
 
 ===================================================================================
